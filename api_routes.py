@@ -2,8 +2,6 @@ from flask import request
 from flask import json
 from flask.json import jsonify
 from qna_model.questiongenerator import QuestionGenerator
-import subprocess
-import pandas as pd
 from flask_cors import CORS
 from flask import Blueprint
 from notes_model.notes import extract_summary

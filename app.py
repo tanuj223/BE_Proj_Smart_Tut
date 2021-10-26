@@ -1,7 +1,5 @@
 from flask import Flask
-import os
 from api_routes import api
-import configparser
 
 
 app = Flask(__name__)
