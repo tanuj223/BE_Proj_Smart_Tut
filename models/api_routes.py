@@ -1,11 +1,11 @@
 from flask import request
 from flask import json
 from flask.json import jsonify
-from qna_model.questiongenerator import QuestionGenerator
+from models.questiongenerator import QuestionGenerator
 from flask_cors import CORS
 from flask import Blueprint
-from notes_model.notes import extract_summary
-from recommend_model.recommend import rec
+from models.notes import extract_summary
+from models.recommend import rec
 
 api = Blueprint(
     'api', 'api', url_prefix='/')

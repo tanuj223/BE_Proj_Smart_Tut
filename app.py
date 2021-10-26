@@ -1,5 +1,5 @@
 from flask import Flask
-from api_routes import api
+from models.api_routes import api
 
 
 app = Flask(__name__)
